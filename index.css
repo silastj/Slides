@@ -28,4 +28,13 @@ img{
     width: 80vw;
     max-width: 800px;
     margin: 0 20px;
+    opacity: .7;
+    transform: scale(.5);
+    transition: ease-in-out .3;
+}
+
+.slide li.active{
+    opacity: 1;
+    transform: scale(.9);
+    transition: ease-in-out .3;
 }
