@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    outline: 0 !important;
 }
 ul{
     padding: 0;
@@ -37,4 +38,23 @@ img{
     opacity: 1;
     transform: scale(.9);
     transition: ease-in-out .3;
+}
+.arrow-nav{
+   text-align: center;
+}
+.arrow-center{
+    display: flex;
+    justify-content: space-around;
+}
+.arrow-center button{
+    padding: 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.arrow-center button:focus{
+    border-color: transparent;
 }
